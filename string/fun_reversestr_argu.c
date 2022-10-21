@@ -5,13 +5,14 @@ void reversestr(char str[]);
 void reverse(char str[],int start,int end);
 int main()
 {
-    char str[20];
+    char str[30];
     printf("enter a name: ");
     scanf("%[^\n]s",str);
     reversestr(str);
-    puts(str);
+    printf("%s\n",str);
     reverse(str,6,9);
-    puts(str);
+    printf("%s\n",str);
+
     return 0;
 }
 
